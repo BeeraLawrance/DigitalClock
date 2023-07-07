@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-size:500px,80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 50%;
+    height: 60%;
+    background-color: rgba(127, 238, 219, 0.425);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+#timeht{
+    font-size: 10vw;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+#dateht{
+    font-size: 6vw;
+    color: rgb(233, 80, 80);
+    text-shadow: 2px 2px 5px black;
+}
+#dayht{
+    font-size: 6vw;
+    color: rgb(181, 207, 31);
+    text-shadow: 2px 2px 5px black;
+}
+#sec{
+    font-size: 35vw;
+    color: chartreuse;
+    text-shadow: 2px 2px 5px black;
+}
+#alarmcontainer{
+    width: 40%;
+    height: 60%;
+    background-color: rgba(175, 233, 61, 0.712);
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#alarm{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+#close{
+    position: absolute;
+    right: 7%;
+    top: 5%;
+    font-size: xx-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+select{
+    width: 30%; 
+}
+#submit{
+    position: absolute;
+    bottom: 25%;
+    width: 30%;
+    height: 10%;
+}
